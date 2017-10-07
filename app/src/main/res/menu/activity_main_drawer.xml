@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_temporeal"
+            android:icon="@drawable/ic_bus_icon"
+            android:title="Ônibus Tempo Real"
+            />
+        <item
+            android:id="@+id/nav_horarios"
+            android:icon="@drawable/ic_horarios"
+            android:title="Horários de Ônibus" />
+        <item
+            android:id="@+id/nav_rotas"
+            android:icon="@drawable/ic_rota"
+            android:title="Rotas dos Ônibus" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Desconectar" />
+
+        <item
+            android:id="@+id/nav_teste"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Testar" />
+
+    </group>
+
+</menu>
